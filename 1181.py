@@ -9,4 +9,5 @@ list_2=list(set_list)
 list_2.sort()
 list_2.sort(key=len)
 
-print(list_2)
+for i in list_2:
+    print(i)
