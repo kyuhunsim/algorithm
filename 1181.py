@@ -1,12 +1,12 @@
 a=int(input())
 
-list=[]
+list_2=[]
 
 for i in range(a):
-    list.append(input())
+    list_2.append(input())
+set_list=set(list_2)
+list_2=list(set_list)
+list_2.sort()
+list_2.sort(key=len)
 
-
-
-list.sort(key=len)
-
-print(list)
+print(list_2)
