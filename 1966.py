@@ -24,4 +24,4 @@ for i in range(a):
       idx.append(idx.pop(0))
       
       
-    
+    #안녕
