@@ -18,4 +18,4 @@ def binary_search(array,search_value):
     
     return "there are no search_value in given array"
 
-print(binary_search([3 , 17, 75 , 80 , 202] , 22))
+print(binary_search([3 , 17, 75 , 80 , 202] , 17))
