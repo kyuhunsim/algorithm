@@ -5,7 +5,7 @@ d = {}
 
 for i, l in enumerate(li):
     d[l] = i
-
+print(d)
 i = n - 1
 for i in range(n - 1, -1, -1):
     if sorted_li[i] != li[i]:
