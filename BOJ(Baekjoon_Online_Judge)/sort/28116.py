@@ -48,7 +48,10 @@ idx = [0 for _ in range(n+1)]
 for i in range(1,n+1):
     idx[nums[i]] = i
 
+print(idx)
+
 ans = [0 for _ in range(n+1)]
+
 
 
 for i in range(1,n+1):
@@ -61,5 +64,6 @@ for i in range(1,n+1):
     
     idx[nums[target]] = target
     idx[i] = i
+    print(ans)
 
 print(*ans[1:])
