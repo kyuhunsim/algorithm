@@ -2,4 +2,5 @@
 n,m=map(int,input().split())
 ls=map(int,input().split())
 for i in range(m):
-    
+    #partial sum
+    ls[i]=ls[i-1]+ls[i]
