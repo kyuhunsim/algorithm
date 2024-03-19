@@ -17,3 +17,5 @@ def find_brother(n, k):
 # Example input
 n, k = map(int,input().split())
 print(find_brother(n, k))
+
+#bfs를 사용한 문제
