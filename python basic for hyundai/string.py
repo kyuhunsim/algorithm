@@ -3,7 +3,12 @@ n=int(input())
 ls=[]
 for i in range(n):
     s,t=input().split()
-    print(t[s.index('x')])
-    ls.append(t[s.index('x')])
+    if 'x' in s:
+        a=t[s.index('x')]
+        a=a.upper()
+        ls.append(a)
+    else:
+        
+        ls.append(t[s.index('X')])
 
 print(''.join(ls))
