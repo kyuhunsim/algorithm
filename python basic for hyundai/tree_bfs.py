@@ -22,3 +22,7 @@ def bfs(x,y):
     return graph[n-1][m-1]
 
 print(bfs(0,0))
+
+for i in range(n):
+    for j in range(m):
+        print(graph[i][j],end=' ')
