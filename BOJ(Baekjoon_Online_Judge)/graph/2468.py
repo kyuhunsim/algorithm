@@ -25,7 +25,7 @@ def max_connected_areas(grid):
     
     max_area_count = 0
     
-    for threshold in range(min_value, max_value + 1):
+    for threshold in range(min_value-1  , max_value + 1):
         visited = [[False] * n for _ in range(n)]
         current_area_count = 0
         
