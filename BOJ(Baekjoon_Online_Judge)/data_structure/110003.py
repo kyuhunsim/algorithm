@@ -12,7 +12,7 @@ for i in range(size):
     # 범위를 벗어난 요소가 있을 경우 제거
     while H[0][1] <= i - length:
         print(H)
-        heapq.heappop(H)8
+        heapq.heappop(H)
 
     # 윈도우의 최소값 추가 (i가 length - 1보다 클 때부터)
     res.append(H[0][0])
