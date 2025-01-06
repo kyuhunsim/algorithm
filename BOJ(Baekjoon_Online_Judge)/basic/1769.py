@@ -15,3 +15,8 @@ if int(a)%3==0:
   print("YES")
 else:
   print("NO")
+
+
+asdsad
+
+
