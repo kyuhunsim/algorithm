@@ -83,3 +83,6 @@ plt.show()
 V_df = pd.DataFrame(np.round(V, 2), columns=[f"Col {i}" for i in range(grid_size)])
 print("Final Value Function:")
 print(V_df)
+
+
+#just for test
